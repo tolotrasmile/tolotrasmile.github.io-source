@@ -1,0 +1,35 @@
+.scroll_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 100;
+  background: #fff;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 50%;
+  user-select: none;
+  box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0, 32, 128, .15);
+  transition: all .4s ease-out;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  border: 1px solid rgba(0, 32, 128, .1);
+  outline: 0;
+}
+
+.scroll_top:hover {
+  background-color: rgb(48, 180, 223);
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 .8rem 1.6rem -.2rem rgba(0, 32, 128, .15);
+}
+
+.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
