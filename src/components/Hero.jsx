@@ -7,10 +7,7 @@ const Hero = () => {
       <img className='avatar' src={logo} alt={logo} />
       <h1 className='name'>Tolotra Raharison</h1>
       <h3 className='role'>Software developer</h3>
-      <p className='about-me'>Développeur depuis plus de 3 ans dans le domaine des applications mobiles et
-      JavaScript, passionné par le développement, rigoureux et méthodique dans
-      l’application des bonnes pratiques du dev.
-      </p>
+      <p className='about-me'>Code with ❤️ and JavaScript</p>
     </div>
   </div>
 }
