@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.1.4",
+    "apollo-cache-inmemory": "latest",
+    "apollo-client": "latest",
+    "apollo-link-http": "latest",
     "classnames": "^2.2.5",
+    "graphql": "^0.13.2",
+    "graphql-tag": "latest",
     "modern-normalize": "^0.4.0",
     "react": "^16.2.0",
+    "react-apollo": "^2.1.1",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
     "whatwg-fetch": "^2.0.3"
